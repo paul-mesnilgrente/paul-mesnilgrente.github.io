@@ -112,8 +112,8 @@ sub { top: 0.3em; }
 dl { margin: 0 0 1.5em 0; }
 dl dt { font-weight: bold; }
 dd  { margin-left: 1.5em;}
-blockquote  { margin: 1.5em; padding: 1em; color: #666666; background: #e6e6e6; font-style: italic; border: 1px solid #dcdcdc; }
-    blockquote p { padding-bottom: 0px; }
+/*blockquote  { margin: 1.5em; padding: 1em; color: #666666; background: #e6e6e6; font-style: italic; border: 1px solid #dcdcdc; }*/
+    /*blockquote p { padding-bottom: 0px; }*/
 
 input[type=text],input.text, input.title, textarea, select { background-color:#FFFFFF; border:1px solid #bbb; padding: 2px; color: #4e4e4e; }
 input[type=text]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus { border-color:#2D3940; color: #3e3e3e; }
@@ -133,15 +133,17 @@ a:focus{
 .right{
     float: right;
 }
-blockquote{
+blockquote {
     background: none;
-    border: none;
     font-style: normal;
 }
-blockquote p {
+blockquote ol {
     font-size: 17.5px;
     font-weight: bold;
     line-height: 30px;
+}
+.blockquote .blockquote-footer {
+    font-size: 15px;
 }
 /**/
 

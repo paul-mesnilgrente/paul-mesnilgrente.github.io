@@ -17,8 +17,10 @@ $(function() {
       }
   });
   // Timeline
-  $('.timeline-post:even').addClass("timeline-post-left");
-  $('.timeline-post:odd').addClass("timeline-post-right");
+  $('#education > .timeline-post').filter(':even').addClass("timeline-post-left");
+  $('#education > .timeline-post').filter(':odd').addClass("timeline-post-right");
+  $('#experience > .timeline-post').filter(':even').addClass("timeline-post-left");
+  $('#experience > .timeline-post').filter(':odd').addClass("timeline-post-right");
   // Navigation For Index2
   $('#navs').onePageNav({
     currentClass: 'active',

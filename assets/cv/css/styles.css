@@ -821,8 +821,9 @@ a.hire-btn:hover{
 #hire{
     background-image: url('/assets/cv/images/parallax/parallax_bg03.jpg');
 }
-#qoutes{
+#quotes{
     background-image: url('/assets/cv/images/parallax/parallax_bg04.jpg');
+    text-align: left;
 }
 
 /* 6 - Home

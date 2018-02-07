@@ -1,5 +1,4 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer class="site-footer">
 
   <div class="wrapper">
 
@@ -8,7 +7,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">
+          <li>
             {% if site.author %}
               {{ site.author | escape }}
             {% else %}
@@ -16,13 +15,25 @@
             {% endif %}
             </li>
             {% if site.email %}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        {% include social.html %}
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
       </div>
 
       <div class="footer-col footer-col-3">
@@ -31,4 +42,5 @@
     </div>
 
   </div>
+
 </footer>

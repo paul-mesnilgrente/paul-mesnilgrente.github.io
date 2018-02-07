@@ -1,10 +1,12 @@
 ---
 ---
+'use strict';
 window.store = {
   {% for post in site.posts %}
     "{{ post.url | slugify }}": {
       "title": "{{ post.title | xml_escape }}",
       "author": "{{ post.author | xml_escape }}",
+      "date": "{{ post.date | date_to_string }}",
       "category": "{{ post.category | xml_escape }}",
       "content": {{ post.content | strip_html | strip_newlines | jsonify }},
       "url": "{{ post.url | xml_escape }}"
@@ -22,8 +24,16 @@ window.store = {
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li class="list-group-item"><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-        appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+        var author = item.author ? '<small>' + item.author + '</small>' : '';
+        var appendString = 
+        '<a href="' + item.url + '" class="list-group-item list-group-item-action flex-column align-items-start">\
+          <div class="d-flex w-100 justify-content-between">\
+            <h3 class="mb-1">' + item.title + '</h3>\
+            <small>' + item.date + '</small>\
+          </div>\
+          <p class="mb-1">' + item.content.substring(0, 150) + '</p>\
+          ' + author + '\
+        </a>';
       }
 
       searchResults.innerHTML = appendString;

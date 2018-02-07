@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<main role="main">
+  {{ content }}
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Hello, world!</h1>
+      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    {% if site.posts.size > 0 %}
+    <!-- Example row of columns -->
+    <div class="row">
+      {% for post in site.posts %}
+        <div class="col-md-4">
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {% if site.show_excerpts %}
+            <p>{{ post.excerpt }}</p>
+          {% endif %}
+          <p><a class="btn btn-secondary" href="{{ post.url | relative_url }}" role="button">View more &raquo;</a></p>
+        </div>
+      {% endfor %}
+    </div>
+    {% else %}
+      <h3>No articles yet.</h3>
+    {% endif %}
+  </div><!-- /container -->
+
+</main>

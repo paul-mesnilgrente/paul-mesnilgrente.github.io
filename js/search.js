@@ -25,7 +25,7 @@ window.store = {
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
         var author = item.author ? '<small>' + item.author + '</small>' : '';
-        var appendString = 
+        var appendString = appendString + 
         '<a href="' + item.url + '" class="list-group-item list-group-item-action flex-column align-items-start">\
           <div class="d-flex w-100 justify-content-between">\
             <h3 class="mb-1">' + item.title + '</h3>\

@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Calculate MDI of 6R"
+title:  "Calculate MDI of a 6R robotic arm"
 date:   2016-02-02 17:13:02 +0000
 author: Paul Mesnilgrente
-categories: jekyll update
+categories: robotics maths
+featured: true
+image: /assets/images/jekyll.jpg
 comments: true
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

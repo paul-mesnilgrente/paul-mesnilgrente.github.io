@@ -20,7 +20,7 @@ window.store = {
     var searchResults = document.getElementById('search-results');
 
     if (results.length) { // Are there any results?
-      var appendString = '';
+      var appendString = '<ul class="list-group">';
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
@@ -36,9 +36,11 @@ window.store = {
         </a>';
       }
 
-      searchResults.innerHTML = appendString;
+      searchResults.innerHTML = appendString + '</ul>';
     } else {
-      searchResults.innerHTML = '<li>No results found</li>';
+      searchResults.innerHTML = '<div class="alert alert-danger" role="alert">\
+        No results found.\
+      </div>';
     }
   }
 

@@ -16,8 +16,8 @@
 title: Paul Mesnilgrente
 email: web@paul-mesnilgrente.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog of Paul Mesnilgrente. It is mostly about robotics application development,
-  machine learning, Linux and web development.
+  Paul Mesnilgrente's blog. It is mostly about robotics, machine learning,
+  Linux and web development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://paul-mesnilgrente.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: PMesnilgrente

@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "My terminal"
-date:   2018-02-10 17:13:02 +0000
+title:  "Different usage of grep"
+date:   2018-02-04 17:13:02 +0000
 author: Paul Mesnilgrente
 categories: jekyll update
+featured: true
+image: /assets/images/jekyll.jpg
 comments: true
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

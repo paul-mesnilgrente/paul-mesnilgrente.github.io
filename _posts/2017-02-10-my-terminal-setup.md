@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Eigen faces"
-date:   2017-12-07 17:13:02 +0000
+title:  "My terminal setup"
+date:   2017-10-10 17:13:02 +0000
 author: Paul Mesnilgrente
 categories: jekyll update
+frontpage: true
+image: /assets/images/cmatrix.jpg
 comments: true
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

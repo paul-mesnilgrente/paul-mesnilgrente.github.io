@@ -5,4 +5,7 @@
 - Use the domain paul-mesnilgrente.com
 - Customize the theme with better fonts/colors
 - Write the articles
-- Make the contact form work
+
+## Optional
+
+- Package the blog in a theme and publish it

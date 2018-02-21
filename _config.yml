@@ -17,7 +17,7 @@ title: Paul Mesnilgrente
 email: web@paul-mesnilgrente.com
 description: >- # this means to ignore newlines until "baseurl:"
   Paul Mesnilgrente's blog. It is mostly about robotics, machine learning,
-  Linux and web development.
+  linux and web development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://paul-mesnilgrente.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: PMesnilgrente
@@ -34,7 +34,7 @@ disqus:
 markdown: kramdown
 theme: minima
 show_excerpts: true
-paginate: 5
+paginate: 1
 paginate_path: "/blog/page:num/"
 plugins:
   - jekyll-feed

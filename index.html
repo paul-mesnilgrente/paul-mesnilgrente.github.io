@@ -52,7 +52,7 @@ layout: default
           {% if paginator.next_page %}
             <a class="btn btn-outline-primary" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older</a>
           {% else %}
-            <span class="btn btn-outline-secondary disabled">Previous</span>
+            <span class="btn btn-outline-secondary disabled">Older</span>
           {% endif %}
           {% if paginator.previous_page %}
             <a class="btn btn-outline-primary" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer</a>

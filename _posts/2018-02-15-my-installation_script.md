@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Installation script"
-date:   2018-02-06 17:33:00 +0000
 author: Paul Mesnilgrente
 categories: bash terminal installation
 frontpage: true

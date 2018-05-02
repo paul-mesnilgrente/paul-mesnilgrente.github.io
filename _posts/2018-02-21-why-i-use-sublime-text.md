@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Why I use sublime text"
-date:   2018-02-21 17:13:02 +0000
 author: Paul Mesnilgrente
 categories: jekyll update
 ---

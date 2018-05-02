@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Forward kinematic equations of a PRPRR"
-date:   2016-02-02 17:13:02 +0000
 author: Paul Mesnilgrente
 categories: robotics maths
 featured: true

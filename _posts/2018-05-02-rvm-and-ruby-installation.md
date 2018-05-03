@@ -3,10 +3,8 @@ layout: post
 title:  "RVM and Ruby installation"
 author: Paul Mesnilgrente
 categories: ruby rvm installation
-image: /assets/images/rvm_logo.jpg
+image: /assets/images/rvm_logo.png
 ---
-# Install RVM on Ubuntu 18.04
-
 ## Basic installation
 
 As stated on the RVM [website](https://rvm.io/rvm/install). You can find the following instructions [here](https://github.com/rvm/ubuntu_rvm):

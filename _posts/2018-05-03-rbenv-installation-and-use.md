@@ -3,6 +3,7 @@ layout: post
 title:  "Install rbenv and use it"
 author: Paul Mesnilgrente
 categories: ruby rbenv installation
+featured: true
 image: /assets/images/rbenv_logo.png
 ---
 ## I. What is rbenv
@@ -95,9 +96,9 @@ the one from github-pages. You can check github-pages package versions
 
 ## Sources
 
-- https://github.com/rbenv/rbenv
-- https://github.com/rbenv/rbenv-installer
-- https://github.com/rbenv/rbenv/wiki/Why-rbenv%3F
-- https://gist.github.com/MicahElliott/2407918
-- https://pages.github.com/versions/
-- https://github.com/pyenv/pyenv
+- [https://github.com/rbenv/rbenv](https://github.com/rbenv/rbenv)
+- [https://github.com/rbenv/rbenv-installer](https://github.com/rbenv/rbenv-installer)
+- [https://github.com/rbenv/rbenv/wiki/Why-rbenv%3F](https://github.com/rbenv/rbenv/wiki/Why-rbenv%3F)
+- [https://gist.github.com/MicahElliott/2407918](https://gist.github.com/MicahElliott/2407918)
+- [https://pages.github.com/versions/](https://pages.github.com/versions/)
+- [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv)

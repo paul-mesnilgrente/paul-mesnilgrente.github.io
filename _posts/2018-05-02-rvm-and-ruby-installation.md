@@ -3,6 +3,7 @@ layout: post
 title:  "RVM and Ruby installation"
 author: Paul Mesnilgrente
 categories: ruby rvm installation
+featured: true
 image: /assets/images/rvm_logo.png
 ---
 ## Basic installation

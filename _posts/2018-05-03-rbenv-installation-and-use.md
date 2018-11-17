@@ -88,6 +88,8 @@ bundle install --path vendor
 [ `grep -c vendor .gitignore` -eq 0 ] && echo vendor >> .gitignore
 # star the jekyll built-in server
 bundle exec jekyll serve
+# if you want to show the drafts
+bundle exec jekyll serve --drafts
 ```
 
 **Note:** You should update your packages versions in Gemfile to make it match

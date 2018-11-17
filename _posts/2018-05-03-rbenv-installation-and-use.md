@@ -74,13 +74,13 @@ to write articles:
 
 ```bash
 # install the currently ruby version supported by github-pages
-rbenv install 2.4.2
+rbenv install 2.5.3
 rbenv rehash
 # retrieve your website
 git clone git@github.com:/user/project.github.io
 # set your ruby environment to 2.4.2 in this folder
 cd project.github.io
-rbenv local 2.4.2
+rbenv local 2.5.3
 # install bundler, the ruby library package manager
 gem install bundler
 bundle install --path vendor

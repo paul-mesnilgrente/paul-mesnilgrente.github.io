@@ -139,7 +139,7 @@ $(function() {
 
 /*----------------------------- Google Map --------------------------*/
   $('#gmap').gmap3({
-    marker:{address:"61, Bolingbroke road, CV3 1AP Coventry, United Kingdom", options:{icon: "/assets/cv/images/location1.png"}},
+    marker:{address: $('#address').text(), options:{icon: "/assets/cv/images/location1.png"}},
     map: {
       options:{
         zoom: 14,

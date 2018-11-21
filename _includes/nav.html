@@ -7,9 +7,9 @@
   <div class="collapse navbar-collapse" id="website-navbar">
     <ul class="navbar-nav mr-auto">
         
-      {% include nav_item.html title="About" url="/about.html" %}
       {% include nav_item.html title="Archives" url="/archives.html" %}
-      <li class="navbar-nav mr-auto"><a class="nav-link" href="{{ "/feed.xml" | relative_url }}">Subscribe</a></li>
+      {% include nav_item.html title="RSS" url="/feed.xml" %}
+      {% include nav_item.html title="About me" url="/about.html" %}
       {% comment %}
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>

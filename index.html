@@ -49,15 +49,15 @@ layout: default
 
       {% if paginator.total_pages > 1 %}
         <nav class="blog-pagination">
-          {% if paginator.next_page %}
-            <a class="btn btn-outline-primary" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older</a>
-          {% else %}
-            <span class="btn btn-outline-secondary disabled">Older</span>
-          {% endif %}
           {% if paginator.previous_page %}
             <a class="btn btn-outline-primary" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer</a>
           {% else %}
             <span class="btn btn-outline-secondary disabled">Newer</span>
+          {% endif %}
+          {% if paginator.next_page %}
+            <a class="btn btn-outline-primary" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older</a>
+          {% else %}
+            <span class="btn btn-outline-secondary disabled">Older</span>
           {% endif %}
         </nav>
       {% endif %}

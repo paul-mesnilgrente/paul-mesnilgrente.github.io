@@ -8,7 +8,7 @@ image: /assets/images/cmatrix.jpg
 ---
 I use this script after setting up my terminal on a fresh installation.
 It installs all the basics things that I usually need on my Ubuntu. It
-removes all the useless softwares as well (as amazon plugings).
+removes all the useless softwares as well (as amazon plugins).
 
 **NOTE:** You may find some scripts that you know. This is probably
 because it is part of my scripts that you can find
